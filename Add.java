@@ -9,7 +9,7 @@ class Add {
     int first = Integer.parseInt(args[0]);
     int second = Integer.parseInt(args[1]);
     
-    System.out.println(first + " " + second)
+    System.out.println(first + " " + second);
 
     // add two numbers
     int sum = first + second;
