@@ -6,8 +6,8 @@ class Add {
      Scanner sc = new Scanner(System.in);
     System.out.println("Enter two numbers");
    
-    int first = sc.nextInt();;
-    int second = sc.nextInt();;
+    int first = sc.nextInt();
+    int second = sc.nextInt();
     
     System.out.println(first + " " + second);
 
