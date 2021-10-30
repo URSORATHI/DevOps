@@ -1,13 +1,15 @@
 
+import java.util.Scanner;
 class Add {
 
   public static void main(String[] args) {
     
-     
+    Scanner sc = new Scanner(System.in);
     System.out.println("Enter two numbers");
    
-    int first = Integer.parseInt(args[0]);
-    int second = Integer.parseInt(args[1]);
+    
+    int first = sc.nextInt();
+    int second = sc.nextInt();
     
     System.out.println(first + " " + second);
 
