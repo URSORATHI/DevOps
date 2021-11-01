@@ -17,6 +17,6 @@ static double sum( int n)
 public static void main(String args[])
 {
     int n = Integer.parseInt(args[0]);
-    System.out.printf("%.2f", sum(n));
+    System.out.printf("%.5f", sum(n));
 }
 }
